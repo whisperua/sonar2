@@ -27,6 +27,3 @@ jobs:
 
       - name: Tests
         run: echo 'no Tests'
-
-      - name: Start server
-        run: sleep 30 && node index.js --p 5000 --cp 3000
